@@ -1,6 +1,6 @@
 # golang-github-enterprise-runners
 
-So, you want to automatically register GitHub Action Self-Hosted Runners for your Orginizatiton. You've probably looked at the docs and thought "why did they make it so difficult?" Well, here's a fully working proof-of-concept using Go that will generate the various tokens and use them to call the APIs needed to (finally) get a Runner registration token. 
+So, you want to automatically register GitHub Actions Self-Hosted Runners for your Orginizatiton. You've probably looked at the docs and thought "why did they make it so difficult?" Well, here's a fully working proof-of-concept using Go that will generate the various tokens and use them to call the APIs needed to (finally) get a Runner registration token. 
 
 ### !!! NOTE !!! 
 This code logs secret values and should ***NOT*** be used in a production environment! It is provided as a proof-of-concept so you can see the various steps needed to get a registration token. Also, the error handling and whole structure needs work before it's used for production workloads. 
