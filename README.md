@@ -11,7 +11,7 @@ This code logs secret values and should ***NOT*** be used in a production enviro
 3. You've [generated a private key](https://docs.github.com/en/developers/apps/building-github-apps/authenticating-with-github-apps#generating-a-private-key) for the app and have a copy of the file. 
 4. You've noted the [App ID](https://docs.github.com/en/developers/apps/building-github-apps/authenticating-with-github-apps#authenticating-as-a-github-app) and its [Installation ID](https://docs.github.com/en/rest/orgs/orgs#list-app-installations-for-an-organization). 
 
-Now you can update the `const` values in the `main.go` file and run it to get your runner registration tokens. 
+Now you can update the [`const`](main.go#L16) values in the `main.go` file and run it to get your runner registration tokens. 
 ```
 go run main.go
 ```
